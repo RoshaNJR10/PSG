@@ -1,0 +1,60 @@
+*{
+    margin: 0;padding: 0;
+}
+header{
+    height: 6vh;
+    background-color: aquamarine;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 84vh;
+    background-color: bisque;
+}
+footer{
+    height: 10vh;
+    background-color: aquamarine;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    float: left;
+    margin: 6px 50px 5px 0px;
+    padding: 6px;
+}
+ul li a{
+    text-decoration: none;
+    text-decoration-color: black;
+    font-size:large;
+    
+}
+li a:hover{
+    background-color:aqua;
+}
+ .search{
+     
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px; 
+}
+.search input[type=search]:hover{
+    width: 250px;
+    height: 25px;
+}
+.logo img{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 120px;
+    
+}
+.logo{
+    margin: 0;
+    padding: 0;
+}
